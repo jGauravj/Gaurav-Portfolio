@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Light.otf") format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Medium.otf") format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Bold.otf") format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.box-shadow {
+  box-shadow: rgba(255, 255, 255, 0.024) 0px 0.362176px 0.651917px -1px inset,
+    rgba(255, 255, 255, 0.035) 0px 3px 5.4px -2px inset;
+}
+.btn-shadow{
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0.5px 1.5px inset;
+  background: radial-gradient(70.4% 50% at 56.7% 111.3%, rgb(242, 131, 5) 0%, rgb(245, 59, 7) 100%);
+}
+.link{
+  box-shadow: rgba(255, 255, 255, 0.06) 0px 0.362176px 0.507046px -0.75px inset, rgba(255, 255, 255, 0.118) 0px 3px 4.2px -1.5px inset;
+  opacity: 1;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.link:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 2px -0.2px inset, 
+              rgba(255, 255, 255, 0.15) 0px 4px 6px -1px inset;
+  transform: scale(1); /* Adds a subtle scaling effect */
+  opacity: 1.1;
+}
+
+.skills_btn{
+  @apply  py-2 px-[10px] text-white/50 text-xs border border-[rgba(255,255,255,0.01)] rounded-full box-shadow bg-[rgba(255,255,255,0.04)];
+}
+.card{
+  @apply w-full  flex-1 border rounded-3xl border-[rgba(255,255,255,0.01)] box-shadow bg-[rgba(255,255,255,0.02)] p-8
+}
+
+
