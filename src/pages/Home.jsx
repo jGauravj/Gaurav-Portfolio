@@ -31,7 +31,7 @@ const backenSkills = ["Node Js", "Express Js", "Mongodb"];
 
 const Home = () => {
   return (
-    <div className=" flex flex-col min-h-screen gap-10 mt-40">
+    <div className=" flex flex-col min-h-screen gap-10 lg:mt-40 md:mt-32 mt-14 ">
       <div className="flex flex-col gap-[10px]">
         <div className="relative">
           <h5 className="text-base font-semibold text-white/80">Hey there!</h5>
@@ -39,7 +39,7 @@ const Home = () => {
             I&apos;m Gaurav, a frontend developer building intuitive and
             responsive web experiences with clean, efficient code.
           </h1>
-          <div className="w-1/2 absolute inset-0 bottom-0 bg-gradient-to-t from-[#0D0D0F] opacity-50 via-transparent to-transparent pointer-events-none z-10"></div>
+          <div className="lg:w-1/2 w-full absolute inset-0 bottom-0 bg-gradient-to-t from-[#0D0D0F] opacity-50 via-transparent to-transparent pointer-events-none z-10"></div>
         </div>
         <div className="flex items-center gap-4 mt-2 ">
           <div className="flex items-center gap-2">
@@ -210,7 +210,7 @@ const Home = () => {
                   <Handshake size={26} className="text-white/80" />
                 </span>
                 <div className="flex flex-col gap-1">
-                  <p className="text-xs text-white/50">Let's Work Together!</p>
+                  <p className="text-xs text-white/50">Let&apos;s Work Together!</p>
                   <p className="flex items-center text-xs text-white/50">Send Email <ArrowRight size={12}  /> <span className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">gouraw1@gmail.com</span> </p>
                 </div>
               </div>
