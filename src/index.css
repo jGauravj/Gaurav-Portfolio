@@ -52,7 +52,7 @@
   @apply  py-2 px-[10px] text-white/50 text-xs border border-[rgba(255,255,255,0.01)] rounded-full box-shadow bg-[rgba(255,255,255,0.04)];
 }
 .card{
-  @apply w-full  flex-1 border rounded-3xl border-[rgba(255,255,255,0.01)] box-shadow bg-[rgba(255,255,255,0.02)] p-8
+  @apply w-full flex-1 border rounded-3xl border-[rgba(255,255,255,0.01)] box-shadow bg-[rgba(255,255,255,0.02)] p-8
 }
 
 

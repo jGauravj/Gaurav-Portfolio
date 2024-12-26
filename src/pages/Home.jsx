@@ -4,6 +4,12 @@ import vite from "../assets/vite-logo.webp";
 import figma from "../assets/figma-logo.webp";
 import vscode from "../assets/vscode-logo.webp";
 import { MoveRight } from "lucide-react";
+import { Linkedin } from "lucide-react";
+import { Github } from "lucide-react";
+import { Instagram } from "lucide-react";
+import { Send } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const skills = [
   "HTML",
@@ -29,7 +35,7 @@ const Home = () => {
       <div className="flex flex-col gap-[10px]">
         <div className="relative">
           <h5 className="text-base font-semibold text-white/80">Hey there!</h5>
-          <h1 className="text-white text-[42px] font-semibold w-8/12">
+          <h1 className="text-white text-[42px] font-semibold w-full lg:w-8/12">
             I&apos;m Gaurav, a frontend developer building intuitive and
             responsive web experiences with clean, efficient code.
           </h1>
@@ -173,7 +179,44 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="card"></div>
+
+        <div className="card h-[440px]">
+          <div className="flex flex-col gap-6 h-full">
+            <div>
+              <h1 className="text-white/80 text-lg font-bold">Connect</h1>
+            </div>
+            <div className="flex flex-col">
+              <div className="p-3 flex items-center gap-3">
+                <Linkedin size={18} className="text-white/80" />
+                <p className="text-sm  text-white/80">LinkedIn</p>
+              </div>
+              <div className="p-3 flex items-center gap-3">
+                <Github size={18} className="text-white/80" />
+                <p className="text-sm  text-white/80">Github</p>
+              </div>
+              <div className="p-3 flex items-center gap-3">
+                <Instagram size={18} className="text-white/80" />
+                <p className="text-sm  text-white/80">Instagram</p>
+              </div>
+              <div className="p-3 flex items-center gap-3">
+                <Send size={18} className="text-white/80" />
+                <p className="text-sm  text-white/80">Telegram</p>
+              </div>
+            </div>
+            <div className="h-full flex flex-col justify-end gap-6">
+              <div className="h-[2px] w-full bg-[rgba(255,255,255,0.04)] rounded-full"></div>
+              <div className="flex items-center gap-3">
+                <span className="w-[38px] h-[38px] flex justify-center items-center bg-[rgba(255,255,255,0.04)] rounded-md">
+                  <Handshake size={26} className="text-white/80" />
+                </span>
+                <div className="flex flex-col gap-1">
+                  <p className="text-xs text-white/50">Let's Work Together!</p>
+                  <p className="flex items-center text-xs text-white/50">Send Email <ArrowRight size={12}  /> <span className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">gouraw1@gmail.com</span> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
