@@ -4,15 +4,16 @@ import Footer from "./components/Footer";
 
 const Layout = () => {
   return (
-    <div className="bg-[#0D0D0F]  w-full flex flex-col">
+    <div className="bg-[#0D0D0F] items-center  w-full flex flex-col">
       <Navbar />
       <div className="flex-1 flex justify-center bg-[#0D0D0F]">
         <div className="w-full max-w-screen-xl md:px-16 px-6 lg:px-0">
           <Outlet />
         </div>
-      </div> 
-     
-       <Footer />
+      </div>
+      <div className="w-full max-w-screen-xl md:px-16 px-6 lg:px-0">
+        <Footer />
+      </div>
     </div>
   );
 };

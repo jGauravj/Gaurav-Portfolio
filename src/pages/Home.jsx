@@ -11,6 +11,7 @@ import { Send } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import Projects from "../components/Projects";
+import Connect from "../components/Connect";
 
 const skills = [
   "HTML",
@@ -234,6 +235,12 @@ const Home = () => {
             <p className="text-xs text-white/50">Check out some of my projects</p>
           </div>
           <Projects />
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="p-4 flex justify-center items-center ">
+            <Connect />
         </div>
       </div>
     </div>

@@ -28,10 +28,10 @@ const Navbar = () => {
               />
             </div>
             <div className="w-[2px] rounded-md h-10 bg-[rgba(255,255,255,0.1)]"></div>
-            <div className="flex items-center gap-2 justify-center py-2 px-3 border-2 border-[rgba(255,255,255,0.01)] rounded-full btn-shadow cursor-pointer group">
+            <button className="flex items-center gap-2 justify-center py-2 px-3 border-2 border-[rgba(255,255,255,0.01)] rounded-full btn-shadow cursor-pointer group">
               <h1 className="text-white font-medium ">Say Hello!</h1>
               <span className="group-hover:animate-waving-hand">👋</span>
-            </div>
+            </button>
           </div>
         </div>
       </div>
