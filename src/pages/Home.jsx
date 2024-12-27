@@ -10,6 +10,7 @@ import { Instagram } from "lucide-react";
 import { Send } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { ArrowRight } from "lucide-react";
+import Projects from "../components/Projects";
 
 const skills = [
   "HTML",
@@ -31,7 +32,7 @@ const backenSkills = ["Node Js", "Express Js", "Mongodb"];
 
 const Home = () => {
   return (
-    <div className=" flex flex-col min-h-screen gap-10 lg:mt-40 md:mt-32 mt-14 ">
+    <div className=" flex flex-col min-h-screen gap-[10px] lg:mt-40 md:mt-32 mt-14 ">
       <div className="flex flex-col gap-[10px]">
         <div className="relative">
           <h5 className="text-base font-semibold text-white/80">Hey there!</h5>
@@ -210,12 +211,29 @@ const Home = () => {
                   <Handshake size={26} className="text-white/80" />
                 </span>
                 <div className="flex flex-col gap-1">
-                  <p className="text-xs text-white/50">Let&apos;s Work Together!</p>
-                  <p className="flex items-center text-xs text-white/50">Send Email <ArrowRight size={12}  /> <span className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">gouraw1@gmail.com</span> </p>
+                  <p className="text-xs text-white/50">
+                    Let&apos;s Work Together!
+                  </p>
+                  <p className="flex items-center text-xs text-white/50">
+                    Send Email <ArrowRight size={12} />{" "}
+                    <span className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">
+                      gouraw1@gmail.com
+                    </span>{" "}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="flex flex-col gap-6">
+          <div className="flex justify-between items-center">
+            <h1 className="text-lg text-bold text-white/80" >Works & Projects</h1>
+            <p className="text-xs text-white/50">Check out some of my projects</p>
+          </div>
+          <Projects />
         </div>
       </div>
     </div>
