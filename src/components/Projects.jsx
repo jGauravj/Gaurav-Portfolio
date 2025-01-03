@@ -6,7 +6,7 @@ const Projects = () => {
       {projects.map((project, index) => (
         <div
           key={index}
-          className=" flex-1 flex flex-col items-center min-h-[273px] px-[14px] pt-[14px] pb-[18px] min-w-[300px] bg-[rgba(255,255,255,0.02)] box-shadow rounded-xl"
+          className=" flex-1 flex flex-col items-center min-h-[273px] px-[14px] pt-[14px] pb-[18px] sm:min-w-[300px] min-w-[250px] bg-[rgba(255,255,255,0.02)] box-shadow rounded-xl"
         >
           <div className="w-full h-[170px] rounded-lg">
             <img

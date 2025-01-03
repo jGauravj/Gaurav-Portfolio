@@ -8,7 +8,7 @@ import github from "./assets/github.png";
 const projects = [
   {
     name: "PasteApp",
-    technologies: ["React.js", "Tailwind CSS", "Firebase"],
+    technologies: ["React.js", "Tailwind CSS", "Redux-Toolkit", "LocalStorage"],
     image: PasteApp,
   },
   {
@@ -18,18 +18,18 @@ const projects = [
   },
   {
     name: "Foodzzz",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    technologies: ["React.js", "JavaScript", "Tailwind CSS", "Redux-Toolkit"],
     image: foodzzz,
   },
 
   {
     name: "Animated UI",
-    technologies: ["React.js", "Framer Motion", "CSS"],
+    technologies: ["HTML", "CSS","JavaScript", "GSAP", ],
     image: animatedui,
   },
   {
-    name: "Portfolio",
-    technologies: ["React.js", "Tailwind CSS", "JavaScript"],
+    name: "Old Portfolio",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
     image: portfolio,
   },
   {

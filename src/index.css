@@ -59,4 +59,9 @@
   @apply w-full flex-1 border rounded-3xl border-[rgba(255,255,255,0.01)] box-shadow bg-[rgba(255,255,255,0.02)] p-8
 }
 
+.resume-btn{
+  background: radial-gradient(70.4% 63.2% at 53.1% 128.2%, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.04) 100%);
+  
+}
+
 

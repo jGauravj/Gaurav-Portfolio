@@ -188,22 +188,30 @@ const Home = () => {
               <h1 className="text-white/80 text-lg font-bold">Connect</h1>
             </div>
             <div className="flex flex-col">
-              <div className="p-3 flex items-center gap-3">
+              <a href="https://www.linkedin.com/in/gaurav-jangir-4b2427221/" target="_blank" className="p-3 flex items-center gap-3 cursor-pointer">
                 <Linkedin size={18} className="text-white/80" />
-                <p className="text-sm  text-white/80">LinkedIn</p>
-              </div>
-              <div className="p-3 flex items-center gap-3">
+                <p className="text-sm  text-white/80 hover:text-white transition-all ease-linear">
+                  LinkedIn
+                </p>
+              </a>
+              <a href="https://github.com/jGauravj" target="_blank" className="p-3 flex items-center gap-3 cursor-pointer">
                 <Github size={18} className="text-white/80" />
-                <p className="text-sm  text-white/80">Github</p>
-              </div>
-              <div className="p-3 flex items-center gap-3">
+                <p className="text-sm  text-white/80 hover:text-white transition-all ease-linear">
+                  Github
+                </p>
+              </a>
+              <a href="https://www.instagram.com/jr.gaurav/" target="_blank" className="p-3 flex items-center gap-3 cursor-pointer">
                 <Instagram size={18} className="text-white/80" />
-                <p className="text-sm  text-white/80">Instagram</p>
-              </div>
-              <div className="p-3 flex items-center gap-3">
+                <p className="text-sm  text-white/80 hover:text-white transition-all ease-linear">
+                  Instagram
+                </p>
+              </a>
+              <a href="#" className="p-3 flex items-center gap-3 cursor-pointer">
                 <Send size={18} className="text-white/80" />
-                <p className="text-sm  text-white/80">Telegram</p>
-              </div>
+                <p className="text-sm  text-white/80 hover:text-white transition-all ease-linear">
+                  Telegram
+                </p>
+              </a>
             </div>
             <div className="h-full flex flex-col justify-end gap-6">
               <div className="h-[2px] w-full bg-[rgba(255,255,255,0.04)] rounded-full"></div>
@@ -217,9 +225,9 @@ const Home = () => {
                   </p>
                   <p className="flex items-center text-xs text-white/50">
                     Send Email <ArrowRight size={12} />{" "}
-                    <span className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">
+                    <a  href="mailto:gouraw1@gmail.com" className="text-xs text-white ml-1 hover:text-blue-600 cursor-pointer hover:underline transition-all ease-linear">
                       gouraw1@gmail.com
-                    </span>{" "}
+                    </a>{" "}
                   </p>
                 </div>
               </div>
@@ -231,8 +239,12 @@ const Home = () => {
       <div className="card">
         <div className="flex flex-col gap-6">
           <div className="flex justify-between items-center">
-            <h1 className="text-lg text-bold text-white/80" >Works & Projects</h1>
-            <p className="text-xs text-white/50">Check out some of my projects</p>
+            <h1 className="text-lg text-bold text-white/80">
+              Works & Projects
+            </h1>
+            <p className="text-xs text-white/50">
+              Check out some of my projects
+            </p>
           </div>
           <Projects />
         </div>
@@ -240,7 +252,7 @@ const Home = () => {
 
       <div className="card">
         <div className="p-4 flex justify-center items-center ">
-            <Connect />
+          <Connect />
         </div>
       </div>
     </div>

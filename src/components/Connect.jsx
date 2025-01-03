@@ -1,4 +1,7 @@
 const Connect = () => {
+  const whatsappNumber = "916376700373";
+  const message = "Hello!";
+
   return (
     <div className="flex flex-col items-center relative">
       <div className="w-full h-full relative flex justify-center">
@@ -13,10 +16,18 @@ const Connect = () => {
         Available for full-time, part-time, or freelance opportunities—let’s
         make it happen! ✨
       </p>
-      <button className="flex items-center gap-2 justify-center py-2 px-3 border-2 border-[rgba(255,255,255,0.01)] rounded-full btn-shadow cursor-pointer group mt-6">
-        <h1 className="text-white font-medium">Let&apos;s Talk</h1>
-        <span>🤩</span>
-      </button>
+      <a
+        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+          message
+        )}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="flex items-center gap-2 justify-center py-2 px-3 border-2 border-[rgba(255,255,255,0.01)] rounded-full btn-shadow cursor-pointer group mt-6">
+          <h1 className="text-white font-medium">Let&apos;s Talk</h1>
+          <span>🤩</span>
+        </button>
+      </a>
     </div>
   );
 };

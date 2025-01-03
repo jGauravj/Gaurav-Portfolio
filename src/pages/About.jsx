@@ -1,6 +1,9 @@
 import Connect from "../components/Connect";
+import resume from "../assets/resume-img.avif";
+import { ArrowUpRight } from "lucide-react";
 
 const About = () => {
+
   return (
     <div className=" flex flex-col min-h-screen gap-[10px] lg:mt-34 md:mt-32 mt-14">
       <div className="flex flex-col gap-[10px]">
@@ -57,6 +60,19 @@ const About = () => {
             <div>
               <h1 className="text-white/80 text-lg font-bold">Resume</h1>
             </div>
+            <div className=" flex justify-center items-center">
+              <img
+                src={resume}
+                alt=""
+                className="w-[300px] h-[200px] object-cover "
+              />
+            </div>
+            <button className="flex justify-center rounded-full items-center gap-1 py-2 px-3 border-2 border-[rgba(255,255,255,0.02)] sm:w-[42%] text-base text-white/80 cursor-pointer group resume-btn box-shadow mt-1 ">
+              Download Resume{" "}
+              <span className=" group-hover:rotate-45 transition-all ease-linear">
+                <ArrowUpRight size={18} />
+              </span>{" "}
+            </button>
           </div>
         </div>
       </div>
