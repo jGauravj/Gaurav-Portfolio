@@ -33,7 +33,7 @@ const backenSkills = ["Node Js", "Express Js", "Mongodb"];
 
 const Home = () => {
   return (
-    <div className=" flex flex-col min-h-screen gap-[10px] lg:mt-40 md:mt-32 mt-14 ">
+    <div className=" flex flex-col min-h-screen gap-[10px] lg:mt-34 md:mt-32 mt-14">
       <div className="flex flex-col gap-[10px]">
         <div className="relative">
           <h5 className="text-base font-semibold text-white/80">Hey there!</h5>

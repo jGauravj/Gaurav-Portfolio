@@ -47,6 +47,10 @@
   transform: scale(1); /* Adds a subtle scaling effect */
   opacity: 1.1;
 }
+.active-link{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 2px -0.2px inset, 
+              rgba(255, 255, 255, 0.15) 0px 4px 6px -1px inset;
+}
 
 .skills_btn{
   @apply  py-2 px-[10px] text-white/50 text-xs border border-[rgba(255,255,255,0.01)] rounded-full box-shadow bg-[rgba(255,255,255,0.04)];
