@@ -40,7 +40,7 @@ const Navbar = () => {
             </NavLink>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1rhi_n6qTzGp7UnUxjgV9WORjFbK9nKno"
+              href="https://drive.google.com/uc?export=download&id=1dth4qobDhdD6Y31OfqF9rWLIZODPaYXz"
               className=" w-10 h-10 border-[1.5px]  border-[rgba(255,255,255,0.02)] link rounded-full flex justify-center items-center group"
             >
               <NotebookText
@@ -70,5 +70,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
